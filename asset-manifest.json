@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/orchidea-new/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/orchidea-new/static/js/main.f2943517.chunk.js",
-    "main.js.map": "/orchidea-new/static/js/main.f2943517.chunk.js.map",
-    "runtime-main.js": "/orchidea-new/static/js/runtime-main.b940cc4b.js",
-    "runtime-main.js.map": "/orchidea-new/static/js/runtime-main.b940cc4b.js.map",
-    "static/js/2.64b13fd8.chunk.js": "/orchidea-new/static/js/2.64b13fd8.chunk.js",
-    "static/js/2.64b13fd8.chunk.js.map": "/orchidea-new/static/js/2.64b13fd8.chunk.js.map",
-    "static/js/3.f95ce297.chunk.js": "/orchidea-new/static/js/3.f95ce297.chunk.js",
-    "static/js/3.f95ce297.chunk.js.map": "/orchidea-new/static/js/3.f95ce297.chunk.js.map",
+    "main.css": "/orchidea-new/static/css/main.7f547ee9.chunk.css",
+    "main.js": "/orchidea-new/static/js/main.4272a2ac.chunk.js",
+    "main.js.map": "/orchidea-new/static/js/main.4272a2ac.chunk.js.map",
+    "runtime-main.js": "/orchidea-new/static/js/runtime-main.e104cbec.js",
+    "runtime-main.js.map": "/orchidea-new/static/js/runtime-main.e104cbec.js.map",
+    "static/js/2.ef7c0553.chunk.js": "/orchidea-new/static/js/2.ef7c0553.chunk.js",
+    "static/js/2.ef7c0553.chunk.js.map": "/orchidea-new/static/js/2.ef7c0553.chunk.js.map",
+    "static/js/3.0f914efe.chunk.js": "/orchidea-new/static/js/3.0f914efe.chunk.js",
+    "static/js/3.0f914efe.chunk.js.map": "/orchidea-new/static/js/3.0f914efe.chunk.js.map",
     "index.html": "/orchidea-new/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/orchidea-new/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.64b13fd8.chunk.js.LICENSE.txt": "/orchidea-new/static/js/2.64b13fd8.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/orchidea-new/static/media/logo.6ce24c58.svg"
+    "static/css/main.7f547ee9.chunk.css.map": "/orchidea-new/static/css/main.7f547ee9.chunk.css.map",
+    "static/js/2.ef7c0553.chunk.js.LICENSE.txt": "/orchidea-new/static/js/2.ef7c0553.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/orchidea-new/static/media/tipstwo.1fbd19c9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b940cc4b.js",
-    "static/js/2.64b13fd8.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.f2943517.chunk.js"
+    "static/js/runtime-main.e104cbec.js",
+    "static/js/2.ef7c0553.chunk.js",
+    "static/css/main.7f547ee9.chunk.css",
+    "static/js/main.4272a2ac.chunk.js"
   ]
 }
