@@ -1,0 +1,20 @@
+.section {
+  background-color: #cdcdd5;
+  min-height: 100vh;
+}
+
+.section__title {
+  font-size: 34px;
+  color: #101011;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-shadow: 4px 4px 9px rgba(150, 150, 150, 1);
+}
+
+.section__text {
+  font-size: 28px;
+  color: #101011;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-shadow: 4px 4px 9px rgba(150, 150, 150, 1);
+}

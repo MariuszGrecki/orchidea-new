@@ -1,0 +1,70 @@
+.biology {
+  display: flex;
+}
+
+.biology__nav {
+  height: 100vh;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px 25px;
+  background: #48484b;
+  font-size: 13px;
+}
+
+.biology__li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.biology__section{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  float:left;
+}
+
+.biology__title{
+  font-size: 28px;
+  font-weight: bold;
+  padding: 30px 25px;
+  color: #101011;
+  text-shadow: 4px 4px 9px rgba(150, 150, 150, 1);
+}
+.biology__text{
+  font-size: 18px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #101011;
+  text-shadow: 4px 4px 9px rgba(150, 150, 150, 1);
+}
+.biology__image{
+  width:100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 40px 25px;
+}
+.biology__image1 {
+  width: 400px;
+  height: 150px;
+  background-image: url("./images/tipsone.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.biology__image2 {
+  width: 400px;
+  height: 150px;
+  background-image: url("./images/tipstwo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.biology__image3 {
+  width: 500px;
+  height: 350px;
+  background-image: url("./images/tipsthird.jpg");
+  background-size: cover;
+  background-position: center;
+}

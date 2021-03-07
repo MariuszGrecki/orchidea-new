@@ -1,0 +1,39 @@
+.footer {
+  height: 15vh;
+  background: #48484b;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__text {
+  width: 25%;
+  height: 30px;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  text-align: left;
+}
+
+.footer__text:hover {
+  color: white;
+  text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+  transition:2s;
+}
+
+.footer__image {
+  height: 90px;
+  width: 300px;
+  background-image: url("images/images.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  -webkit-filter: grayscale(1)
+}
+
+.footer__image:hover {
+  -webkit-filter: none;
+  transition:2s;
+}
+
