@@ -1,0 +1,41 @@
+.weather {
+  background-image: url("./images/weather5.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  height: 25rem;
+  color: black;
+}
+
+.weather__textField {
+  background: white;
+}
+
+.weather__box {
+  font-weight: 800;
+
+}
+.weather__location{
+  font-size: 2rem;
+  margin: 1rem;
+  background-color: rgba(255,255,255, 0.4);
+  border-radius: 0.4rem;
+}
+.weather__date{
+  font-size: 2rem;
+  margin: 1rem;
+  background-color: rgba(255,255,255, 0.4);
+  border-radius: 0.4rem;
+}
+.weather__temp{
+  font-size: 4rem;
+  margin-top: 6rem;
+  background-color: rgba(255,255,255, 0.4);
+  border-radius: 0.4rem;
+}
+.weather__image{
+  font-size: 1.4rem;
+  margin: 1rem;
+  background-color: rgba(255,255,255, 0.4);
+  border-radius: 0.4rem;
+}

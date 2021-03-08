@@ -2,7 +2,7 @@ import React from 'react';
 
 const TipsOne = () => {
     return (
-        <div>
+        <div className="biology__tips">
             <h1 className="biology__title">Uprawa i sadzenie storczyków</h1>
             <h2 className="biology__text">Aby odnieść sukcesy w ogrodowej uprawie storczyków, trzeba koniecznie poznać wymagania konkretnego
                 gatunku, zwłaszcza, co się tyczy intensywności nasłonecznienia. Aby przygotować idealne stanowisko,

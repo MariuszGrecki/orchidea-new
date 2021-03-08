@@ -17,4 +17,43 @@
   margin-left: 40px;
   margin-right: 40px;
   text-shadow: 4px 4px 9px rgba(150, 150, 150, 1);
+
+}
+
+.section__second{
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section__inSecond1{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 550px) {
+    display:none;
+  }
+}
+.section__inSecond2{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__title__second {
+  font-size: 34px;
+  color: #101011;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-shadow: 4px 4px 9px rgba(150, 150, 150, 1);
+  width: 18rem;
+}
+.section__image{
+  background-image: url("./images/weather7.jpg");
+  background-size: cover;
+  background-position: left;
+  width: 20rem;
+  height: 25rem;
 }

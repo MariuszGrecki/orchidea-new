@@ -36,32 +36,36 @@ const Contact = () => {
     }
 
     return (
+        <div className="contact__main">
+            <div className="contact__image">
+
+            </div>
         <div className="contact">
             <h1 className="contact__title">W przypadku uwag lub pytań prosimy o kontakt
                 mailowy na adres flowers@wp.pl lub o wypełnienie formularza:</h1>
             <form onSubmit={Submit} noValidate className="contact__form">
                 <div className="contact__text">
-                    <TextField id="standard-basic"
-
+                    <TextField id="outlined-basic"
+                               variant="outlined"
                                label="Twoje imię:"
-                               style={{maxWidth: "1000px", width: "400px"}}
+                               style={{maxWidth: "1000px", width: "80%", background: "white"}}
                                value={name}
                                onChange={e => selectName(e)}/>
                 </div>
                 <div className="contact__text">
-                    <TextField id="standard-basic"
-
+                    <TextField id="outlined-basic"
+                               variant="outlined"
                                label="Twój adres e-mail:"
-                               style={{maxWidth: "1000px", width: "400px"}}
+                               style={{maxWidth: "1000px", width: "80%", background: "white"}}
                                value={email}
                                onChange={e => selectEmail(e)}/>
                     <h1> {error}</h1>
                 </div>
                 <div className="contact__text">
-                    <TextField id="standard-basic"
-
+                    <TextField id="outlined-basic"
+                               variant="outlined"
                                label="Twoja wiadomość:"
-                               style={{maxWidth: "1000px", width: "1000px"}}
+                               style={{maxWidth: "1000px", width: "80%", background: "white"}}
                                value={opis}
                                onChange={e => selectOpis(e)}/>
                 </div>
@@ -71,6 +75,7 @@ const Contact = () => {
                 </div>
             </form>
         </div>
+</div>
     );
 };
 

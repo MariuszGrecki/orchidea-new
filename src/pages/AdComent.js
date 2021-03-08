@@ -39,9 +39,10 @@ const AdComent = () => {
             <h1>Jeżeli masz poradę, którą chciałbyś się podzielić z innymi użytkownikami zapisz ją poniżej: </h1>
             <h2 className="adcoment__smalltext">Porady niezgodne z naszym Regulaminem zostaną usunięte przez administratora</h2>
             <form className="adcoment__form">
-            <TextField id="standard-basic"
+            <TextField id="outlined-basic"
+                       variant="outlined"
                        label="Wpisz poradę"
-                       style={{ width: "80vw"}}
+                       style={{ width: "80vw", background: "white"}}
                        value={tips}
                        onChange={(e) => setTips(e.target.value)}/>
             <Button type="submit" variant="contained" color="primary" onClick={addTips}>Wyślij</Button>

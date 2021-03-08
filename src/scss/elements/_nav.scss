@@ -1,15 +1,37 @@
-.nav{
+.nav {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 25px;
+  background: #48484b;
+  @media (min-width: 550px) {
+    display:none !important;
+  }
+}
+.nav1 {
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   padding: 20px 25px;
   background: #48484b;
+  @media (max-width: 550px) {
+    display: none;
+  }
 }
-
+.header__button {
+  left: 36%;
+  top: 75%;
+  @media (min-width: 550px) {
+    display: none !important;
+  }
+}
 .nav__li{
   font-size: 15px;
   flex-grow: 1;
+  @media (max-width: 550px) {
+    margin: 5px;
+  }
 }
 a {
 
@@ -26,7 +48,7 @@ a:hover {
 }
 
 .active {
-  color: silver;
+  color: #67d1ea;
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 3px;
