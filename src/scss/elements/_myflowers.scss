@@ -6,7 +6,7 @@
 }
 
 .myflowers__nav {
-  height: 100vh;
+  height: 105vh;
   width: 150px;
   display: flex;
   flex-direction: column;
@@ -34,12 +34,51 @@
   width: 100%;
   overflow: hidden;
   float:left;
+}
+.flowers {
+  display: flex;
+  justify-content: center;
   @media (max-width: 550px) {
-    padding: 5px 5px;
+    display: block;
   }
 }
-.flowers{
+.flowers__image{
   overflow: hidden;
+  justify-content: center;
+}
+.flowers__body
+{
+  width:50%;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 20px;
+  @media (max-width: 550px) {
+    width:100%
+  }
+}
+.flowers__title {
+  font-size: 34px;
+  padding-top: 80px;
+  color: #4ab6e6;
+}
+.flowers__desk {
+  font-size: 34px;
+  margin-top: -10px;
+  color: #4ab6e6;
+  padding-bottom: 40px;
+}
+
+.flowers__text {
+  font-size: 28px;
+  color: black;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-shadow: 4px 4px 9px rgba(150, 150, 150, 1);
+  line-height: 40px;
+  @media (max-width: 550px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 .flowers__antoni {
   width: 400px;
@@ -47,6 +86,10 @@
   background-image: url("./images/antoni.jpeg");
   background-size: cover;
   background-position: center;
+  @media (max-width: 550px) {
+    width: 100%;
+    margin: 0;
+  }
 
 }
 .flowers__antoni:hover {
@@ -62,6 +105,10 @@
   background-image: url("./images/barbara.jpg");
   background-size: cover;
   background-position: center;
+  @media (max-width: 550px) {
+    width: 100%;
+    margin: 0;
+  }
 
 }
 .flowers__barbara:hover {
@@ -77,6 +124,10 @@
   background-image: url("./images/kasia.JPG");
   background-size: cover;
   background-position: center;
+  @media (max-width: 550px) {
+    width: 100%;
+    margin: 0;
+  }
 
 }
 .flowers__kasia:hover {

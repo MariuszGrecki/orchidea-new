@@ -34,48 +34,50 @@ const Contact = () => {
             setError("Prosimy o podanie poprawnego adresu e-mail")
         }
     }
-
     return (
         <div className="contact__main">
-            <div className="contact__image">
-
-            </div>
-        <div className="contact">
             <h1 className="contact__title">W przypadku uwag lub pytań prosimy o kontakt
                 mailowy na adres flowers@wp.pl lub o wypełnienie formularza:</h1>
-            <form onSubmit={Submit} noValidate className="contact__form">
-                <div className="contact__text">
-                    <TextField id="outlined-basic"
-                               variant="outlined"
-                               label="Twoje imię:"
-                               style={{maxWidth: "1000px", width: "80%", background: "white"}}
-                               value={name}
-                               onChange={e => selectName(e)}/>
+            <h2 className="contact__desk">______</h2>
+            <div className="contact__body">
+                <div className="contact__image">
                 </div>
-                <div className="contact__text">
-                    <TextField id="outlined-basic"
-                               variant="outlined"
-                               label="Twój adres e-mail:"
-                               style={{maxWidth: "1000px", width: "80%", background: "white"}}
-                               value={email}
-                               onChange={e => selectEmail(e)}/>
-                    <h1> {error}</h1>
+                <div className="contact">
+                    <form onSubmit={Submit} noValidate className="contact__form">
+                        <div className="contact__text">
+                            <TextField id="outlined-basic"
+                                       variant="outlined"
+                                       label="Twoje imię:"
+                                       style={{maxWidth: "1000px", width: "80%", background: "white"}}
+                                       value={name}
+                                       onChange={e => selectName(e)}/>
+                        </div>
+                        <div className="contact__text">
+                            <TextField id="outlined-basic"
+                                       variant="outlined"
+                                       label="Twój adres e-mail:"
+                                       style={{maxWidth: "1000px", width: "80%", background: "white"}}
+                                       value={email}
+                                       onChange={e => selectEmail(e)}/>
+                            <h1> {error}</h1>
+                        </div>
+                        <div className="contact__text">
+                            <TextField id="outlined-basic"
+                                       variant="outlined"
+                                       label="Twoja wiadomość:"
+                                       style={{maxWidth: "1000px", width: "80%", background: "white"}}
+                                       value={opis}
+                                       onChange={e => selectOpis(e)}/>
+                        </div>
+                        <div className="contact__btn__section">
+                            <Button type="submit" variant="contained" color="primary"
+                                    className="contact__button">Wyślij</Button> <h1
+                            className="contact__answer">{message}</h1>
+                        </div>
+                    </form>
                 </div>
-                <div className="contact__text">
-                    <TextField id="outlined-basic"
-                               variant="outlined"
-                               label="Twoja wiadomość:"
-                               style={{maxWidth: "1000px", width: "80%", background: "white"}}
-                               value={opis}
-                               onChange={e => selectOpis(e)}/>
-                </div>
-                <div className="contact__btn__section">
-                    <Button type="submit" variant="contained" color="primary"
-                            className="contact__button">Wyślij</Button> <h1 className="contact__answer">{message}</h1>
-                </div>
-            </form>
+            </div>
         </div>
-</div>
     );
 };
 

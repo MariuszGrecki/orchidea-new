@@ -1,7 +1,32 @@
 .header {
-    height: 45vh;
-    background-image: url("./images/background.jpg");
+    height: 65vh;
+    background-image: url("./images/headertwo.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header__two {
+    height: 65vh;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.header__three {
+    height: 65vh;
+    background-image: url("./images/headerthree.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.header__four {
+    height: 65vh;
+    background-image: url("./images/headerfour.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.header__five {
+    height: 65vh;
+    background-image: url("./images/headerfive.jpg");
     background-size: cover;
     background-position: center;
 }

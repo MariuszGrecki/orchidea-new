@@ -4,6 +4,7 @@ const TipsOne = () => {
     return (
         <div className="biology__tips">
             <h1 className="biology__title">Uprawa i sadzenie storczyków</h1>
+            <h2 className="biology__desk">______</h2>
             <h2 className="biology__text">Aby odnieść sukcesy w ogrodowej uprawie storczyków, trzeba koniecznie poznać wymagania konkretnego
                 gatunku, zwłaszcza, co się tyczy intensywności nasłonecznienia. Aby przygotować idealne stanowisko,
                 należy wykopać dziurę o 15 cm głębszą niż korzenie sadzonki, o szerokości ok. pół metra, i umieścić

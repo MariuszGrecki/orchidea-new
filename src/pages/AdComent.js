@@ -1,10 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import TextField from "@material-ui/core/TextField";
-import { makeStyles } from '@material-ui/core/styles';
+
 import Button from '@material-ui/core/Button';
 import { db } from "./FirebaseConfig";
-import firebase from "firebase";
-
 
 const AdComent = () => {
     const [poradki, setPoradki] = useState([])
@@ -25,8 +23,7 @@ const AdComent = () => {
             );
         });
     }
-
-   const addTips= (e) => {
+    const addTips= (e) => {
 
         e.preventDefault();
         db.collection("poradki").add({
@@ -36,8 +33,17 @@ const AdComent = () => {
     }
     return (
         <div className="adcoment">
-            <h1>Jeżeli masz poradę, którą chciałbyś się podzielić z innymi użytkownikami zapisz ją poniżej: </h1>
-            <h2 className="adcoment__smalltext">Porady niezgodne z naszym Regulaminem zostaną usunięte przez administratora</h2>
+            <div className="adcoment__box">
+                <div className="adcoment__outside">Masz poradę z którą chciałbyś się podzielić?</div>
+                <div className="adcoment__inside">Dopisz ją, nikogo nie oceniamy
+                </div>
+                <div className="adcoment__outside">Prawdopodobnie pomogłeś komuś :-)</div>
+            </div>
+            <h1 className="adcoment__title">Jeżeli masz poradę, którą chciałbyś się podzielić z
+                innymi użytkownikami zapisz ją poniżej: </h1>
+            <h2 className="adcoment__desk">______</h2>
+            <h3 className="adcoment__smalltext">Porady niezgodne z naszym Regulaminem zostaną
+                usunięte przez administratora</h3>
             <form className="adcoment__form">
             <TextField id="outlined-basic"
                        variant="outlined"
@@ -49,7 +55,8 @@ const AdComent = () => {
             </form>
             <div className="adcoment__list">
                 {
-                    poradki.map((porady, index) => { return (<h1 key={index} className="adcoment__return">{porady.porady}</h1>
+                    poradki.map((porady, index) => { return (<h1 key={index} className="adcoment__return">
+                            {porady.porady}</h1>
                     )})
                 }
             </div>

@@ -4,6 +4,7 @@ const TipsThird = () => {
     return (
         <div>
             <h1 className="biology__title">Rozmnażanie storczyków</h1>
+            <h2 className="biology__desk">______</h2>
             <h2 className="biology__text">Storczyki czasem sprawiają właścicielom przyjemną niespodziankę i rozmnażają
                 się same. Mowa tu o roślinkach-dzieciach, zwanych z języka hawajskiego „keiki”, które samoczynnie
                 pojawiają się na oczkach kwiatowych orchidei takich jak Dendrobium, Falenopsis czy Epidendrum. Mają one

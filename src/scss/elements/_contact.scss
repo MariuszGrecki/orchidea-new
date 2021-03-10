@@ -1,7 +1,10 @@
 .contact__main {
-  display:flex;
+  display:block;
   align-items: center;
   justify-content: center;
+}
+.contact__body {
+  display: flex;
   @media (max-width: 550px) {
     display: block;
   }
@@ -19,22 +22,34 @@
   }
 }
 .contact{
-font-size: 18px;
-  background-color: #cdcdd5;
+  text-align: left;
   display: flex;
   align-items: flex-start;
   justify-content: left;
-  text-align: left;
+  width: 50%;
   flex-direction: column;
   color: #101011;
   margin: 1rem;
+  padding-top: 3rem;
+  @media (max-width: 550px) {
+    width: 100%;
+  }
 }
 .contact__title{
-  margin-left: 80px;
-  padding-top: 30px;
+
+  font-size: 34px;
+  padding-top: 80px;
+  color: #4ab6e6;
+
   @media (max-width: 550px) {
     margin-left: 10px
   }
+}
+.contact__desk {
+  font-size: 34px;
+  margin-top: -10px;
+  color: #4ab6e6;
+  padding-bottom: 40px;
 }
 
 input{

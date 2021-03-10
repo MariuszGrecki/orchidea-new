@@ -1,12 +1,9 @@
 import React, {useState} from 'react';
 import TextField from "@material-ui/core/TextField";
 
-
 const Weather = () => {
-
     const [query, setQuery] = useState("");
     const [weather, setWeather] = useState("");
-
     const search = e => {
         if (e.key === "Enter") {
             fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
@@ -17,7 +14,6 @@ const Weather = () => {
                 console.log(result)});
         }
     }
-
     const api = {
         key: "00755f188b4d4059c58cf4095f4a146d",
         base: "https://api.openweathermap.org/data/2.5/"
@@ -25,16 +21,13 @@ const Weather = () => {
     const dateBuilder = (e) =>{
       let months= ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień",
       "Październik", "Listopad", "Grudzień"];
-
      let date = e.getDate();
      let month =months[e.getMonth()];
      let year = e.getFullYear()
-
         return `${date} ${month} ${year}`
     }
     return (
         <div className="weather">
-
             <div className="Weather__input">
                 <TextField className="weather__textField"
                            id="outlined-basic"
@@ -53,9 +46,7 @@ const Weather = () => {
                     <div className="weather__image">{weather.weather[0].main}</div>
                 </div>
             ): ("")}
-
         </div>
     );
 };
-
 export default Weather;

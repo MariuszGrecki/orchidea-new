@@ -1,5 +1,4 @@
 import React from 'react';
-import Section from "./Section";
 import Antoni from "./Antoni";
 import Barbara from "./Barbara";
 import Kasia from "./Kasia";
@@ -12,7 +11,6 @@ import {
     Switch,
     NavLink,
 } from 'react-router-dom';
-
 
 const MyFlowers = () => {
     return (
@@ -39,9 +37,7 @@ const MyFlowers = () => {
                         <Route component={ErrorPage}/>
                     </Switch>
                 </section>
-
             </div>
-
         </div>
     );
 };

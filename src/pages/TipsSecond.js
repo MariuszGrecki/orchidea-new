@@ -4,6 +4,7 @@ const TipsSecond = () => {
     return (
         <div>
             <h1 className="biology__title">Podlewanie i nawożenie storczyków</h1>
+            <h2 className="biology__desk">______</h2>
             <h2 className="biology__text">Storczyki ogrodowe dają sobie dobrze radę pod warunkiem zachowania stałej
                 wilgotności gleby. Nie warto ich więc podlewać nadmiernie, ale nie można również dopuścić do przesuszenia.
                 Odmiany egzotyczne wymagają przede wszystkim wilgotnego powietrza, na poziomie ok 70%, co, niestety,
