@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/orchidea-new/static/css/main.637ea970.chunk.css",
-    "main.js": "/orchidea-new/static/js/main.3f03b243.chunk.js",
-    "main.js.map": "/orchidea-new/static/js/main.3f03b243.chunk.js.map",
+    "main.css": "/orchidea-new/static/css/main.4a5b1fe2.chunk.css",
+    "main.js": "/orchidea-new/static/js/main.564de186.chunk.js",
+    "main.js.map": "/orchidea-new/static/js/main.564de186.chunk.js.map",
     "runtime-main.js": "/orchidea-new/static/js/runtime-main.422f67f1.js",
     "runtime-main.js.map": "/orchidea-new/static/js/runtime-main.422f67f1.js.map",
     "static/js/2.4fad2ca7.chunk.js": "/orchidea-new/static/js/2.4fad2ca7.chunk.js",
@@ -10,14 +10,22 @@
     "static/js/3.b1b7baa6.chunk.js": "/orchidea-new/static/js/3.b1b7baa6.chunk.js",
     "static/js/3.b1b7baa6.chunk.js.map": "/orchidea-new/static/js/3.b1b7baa6.chunk.js.map",
     "index.html": "/orchidea-new/index.html",
-    "static/css/main.637ea970.chunk.css.map": "/orchidea-new/static/css/main.637ea970.chunk.css.map",
+    "static/css/main.4a5b1fe2.chunk.css.map": "/orchidea-new/static/css/main.4a5b1fe2.chunk.css.map",
     "static/js/2.4fad2ca7.chunk.js.LICENSE.txt": "/orchidea-new/static/js/2.4fad2ca7.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/orchidea-new/static/media/weather7.42d9ef05.jpg"
+    "static/media/antoni.68034ef4.jpeg": "/orchidea-new/static/media/antoni.68034ef4.jpeg",
+    "static/media/main.scss": "/orchidea-new/static/media/headertwo.da3afa13.jpg",
+    "static/media/barbara.44d69cc0.jpg": "/orchidea-new/static/media/barbara.44d69cc0.jpg",
+    "static/media/contact.dbfa3202.jpg": "/orchidea-new/static/media/contact.dbfa3202.jpg",
+    "static/media/kasia.e9ca6cd6.JPG": "/orchidea-new/static/media/kasia.e9ca6cd6.JPG",
+    "static/media/tipsone.4fe46831.jpg": "/orchidea-new/static/media/tipsone.4fe46831.jpg",
+    "static/media/tipsthird.ff624b74.jpg": "/orchidea-new/static/media/tipsthird.ff624b74.jpg",
+    "static/media/tipstwo.1fbd19c9.jpg": "/orchidea-new/static/media/tipstwo.1fbd19c9.jpg",
+    "static/media/weather7.42d9ef05.jpg": "/orchidea-new/static/media/weather7.42d9ef05.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.422f67f1.js",
     "static/js/2.4fad2ca7.chunk.js",
-    "static/css/main.637ea970.chunk.css",
-    "static/js/main.3f03b243.chunk.js"
+    "static/css/main.4a5b1fe2.chunk.css",
+    "static/js/main.564de186.chunk.js"
   ]
 }
