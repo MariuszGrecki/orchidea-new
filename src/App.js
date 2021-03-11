@@ -15,9 +15,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Button from '@material-ui/core/Button';
 import {
     BrowserRouter,
-    HashRouter,
     Route,
-    Link,
     Switch,
     NavLink,
 } from 'react-router-dom';

@@ -1,11 +1,10 @@
 import React from 'react';
-
+import Anton  from '../../src/scss/elements/images/antoni.jpeg'
 const Antoni = () => {
     return (
         <div className="flowers">
             <div className="flowers__image">
-                <div className="flowers__antoni">
-                </div>
+                <img src={Anton} className="flowers__antoni" alt="kwiatek Antoni"/>
             </div>
             <div className="flowers__body">
                 <h1 className="flowers__title">Antoni</h1>

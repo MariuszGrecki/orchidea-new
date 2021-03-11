@@ -1,4 +1,5 @@
 import React from 'react';
+import TipsPhotoSecond from "../scss/elements/images/tipstwo.jpg"
 
 const TipsSecond = () => {
     return (
@@ -21,7 +22,8 @@ const TipsSecond = () => {
                 do właściciela. Odpowiednią dawkę nawozu (lepiej mniej niż we wskazaniu producenta) wlewamy do wody,
                 którą będziemy stosować do podlewania. Zabieg taki należy powtarzać w okresie wegetacji co dwa tygodnie.
                 "Źródło: https://www.ekologia.pl"</h2>
-            <div className="biology__image"> <div className="biology__image2"> </div> </div>
+            <div className="biology__image"> <img src={TipsPhotoSecond} className="biology__image2" alt="orchidee">
+            </img> </div>
         </div>
     );
 };

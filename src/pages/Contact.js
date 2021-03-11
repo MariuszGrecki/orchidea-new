@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import TextField from "@material-ui/core/TextField";
 import Button from '@material-ui/core/Button';
+import ContactImage from "../scss/elements/images/contact.jpg"
 
 
 const Contact = () => {
@@ -40,8 +41,8 @@ const Contact = () => {
                 mailowy na adres flowers@wp.pl lub o wypełnienie formularza:</h1>
             <h2 className="contact__desk">______</h2>
             <div className="contact__body">
-                <div className="contact__image">
-                </div>
+                <img  src={ContactImage} className="contact__image" alt="orchidee list">
+                </img>
                 <div className="contact">
                     <form onSubmit={Submit} noValidate className="contact__form">
                         <div className="contact__text">

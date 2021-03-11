@@ -4,10 +4,7 @@ import Barbara from "./Barbara";
 import Kasia from "./Kasia";
 import ErrorPage from "./ErrorPage";
 import {
-    BrowserRouter,
-    HashRouter,
     Route,
-    Link,
     Switch,
     NavLink,
 } from 'react-router-dom';

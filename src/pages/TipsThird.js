@@ -1,4 +1,5 @@
 import React from 'react';
+import TipsPhotoThird from "../scss/elements/images/tipsthird.jpg"
 
 const TipsThird = () => {
     return (
@@ -17,7 +18,8 @@ const TipsThird = () => {
                 czyli odcięte pędy rośliny, nacięte i oprószone ukorzeniaczem, a następnie pozostawione w substracie
                 dla orchidei w ciepłym, wilgotnym i jasnym środowisku.
                 "Źródło: https://www.ekologia.pl"</h2>
-            <div className="biology__image"> <div className="biology__image3"> </div> </div>
+            <div className="biology__image"> <img src={TipsPhotoThird} className="biology__image3" alt="orchidee">
+            </img> </div>
         </div>
     );
 };

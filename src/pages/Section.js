@@ -4,6 +4,7 @@ import Weather from "./Weather";
 import Button from "@material-ui/core/Button";
 import {NavLink} from "react-router-dom";
 import {CarouselData} from "./CarouselData";
+import WeatherPhoto from "../scss/elements/images/weather7.jpg"
 
 const Section = () => {
     return (
@@ -34,7 +35,7 @@ const Section = () => {
                 <div className="section__inSecond">
                     <h1 className="section__title__second">Naszym roślinkom zawsze sprzyja pogoda</h1>
                     <h2 className="section__desk">______</h2>
-                    <div className="section__image"></div>
+                    <img src={WeatherPhoto}  className="section__image" alt="orchidea"/>
                 </div>
                 <div className="section__inSecond2">
                     <h1 className="section__title__second">Pogodę dla siebie możesz sprawdzić tutaj</h1>

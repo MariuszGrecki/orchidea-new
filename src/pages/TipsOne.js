@@ -1,4 +1,5 @@
 import React from 'react';
+import TipsPhotoOne from "../scss/elements/images/tipsone.jpg"
 
 const TipsOne = () => {
     return (
@@ -24,7 +25,8 @@ const TipsOne = () => {
                 usuwając ją możemy uzyskać ciekawy efekt pełznięcia rośliny do boku. Wszystkie zbrązowiałe części
                 storczyka, zarówno liście, jak i korzenie, należy konsekwentnie usuwać.
                 "Źródło: https://www.ekologia.pl"</h2>
-               <div className="biology__image"> <div className="biology__image1"> </div> </div>
+               <div className="biology__image"> <img src={TipsPhotoOne} className="biology__image1" alt="orchidee">
+               </img> </div>
         </div>
     );
 };

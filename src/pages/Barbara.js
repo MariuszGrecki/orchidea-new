@@ -1,11 +1,11 @@
 import React from 'react';
+import Barbar from "../scss/elements/images/barbara.jpg"
 
 const Barbara = () => {
     return (
         <div className="flowers">
             <div className="flowers__image">
-                <div className="flowers__barbara">
-                </div>
+                <img src={Barbar} className="flowers__barbara" alt="kwiatek Barbara"/>
             </div>
             <div className="flowers__body">
                 <h1 className="flowers__title">Barbara</h1>
